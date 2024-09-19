@@ -1,7 +1,7 @@
 docker,PHPを使った ターミナルで動くブラックジャックゲームです。
 zipでダウンロード後、解凍してください。
 
-ターミナルでルートフォルダ(docker-compose.ymlのある階層)に移動していただき、
+docker desktopを起動し、ターミナルでルートフォルダ(docker-compose.ymlのある階層)に移動していただき、
 - docker-compose build
 - docker-compose up -d
 - docker-compose exec app php Main.php　
